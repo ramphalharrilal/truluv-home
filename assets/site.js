@@ -32,3 +32,15 @@ if (prefersReducedMotion || !('IntersectionObserver' in window)) {
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 }
+
+document.querySelectorAll('[data-copy]').forEach((button) => {
+  button.addEventListener('click', async () => {
+    const status = button.parentElement?.querySelector('[data-copy-status]');
+    try {
+      await navigator.clipboard.writeText(button.dataset.copy || '');
+      if (status) status.textContent = 'Number copied.';
+    } catch {
+      if (status) status.textContent = 'Copy unavailable. Please select the number above.';
+    }
+  });
+});
