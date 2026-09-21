@@ -15,3 +15,15 @@
 .home-badge strong{padding-top:0}
 @media (max-width:760px){.hero-photo{border-radius:2px}.home-badge{right:10px;bottom:14px;width:150px;min-height:82px;padding:14px 12px 14px 50px}.home-badge-icon{left:14px;top:50%}.home-badge strong{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.brand-mark .heart{animation:none}.reveal{opacity:1;transform:none;transition:none}.button,.serve-card{transition:none}}
+
+/* Optional services are visually separate from included residential amenities. */
+.sitter-support{background:var(--teal-light)}
+.sitter-grid{display:grid;grid-template-columns:1fr .88fr;gap:70px;align-items:center}
+.sitter-copy>p:not(.eyebrow){max-width:650px;color:var(--ink)}
+.sitter-copy .check-list{margin:24px 0}
+.sitter-note{padding:14px 18px;border-left:3px solid var(--gold);background:rgba(255,255,255,.7);font-size:.9rem}
+.sitter-photo{position:relative;margin:0;overflow:hidden;box-shadow:var(--shadow)}
+.sitter-photo img{width:100%;height:530px;object-fit:cover;object-position:center}
+.sitter-photo figcaption{position:absolute;inset:auto 0 0;padding:18px 22px;background:rgba(7,63,60,.92);color:var(--white);font-family:"Playfair Display",serif;font-size:1.12rem}
+@media (max-width:980px){.sitter-grid{grid-template-columns:1fr;gap:36px}.sitter-photo img{height:420px}}
+@media (max-width:760px){.sitter-photo img{height:330px}}
