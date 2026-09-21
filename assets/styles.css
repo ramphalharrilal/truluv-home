@@ -63,3 +63,4 @@
 .copy-status{min-height:1.5em;margin:9px 0 0!important;font-size:.86rem}
 @media (max-width:760px){.path-grid,.payment-grid{grid-template-columns:1fr}.path-card{min-height:260px}.payment-hero{padding:140px 0 65px}.payment-card{min-height:330px}}
 @media (prefers-reduced-motion:reduce){.path-card{transition:none}}
+.hero h1{font-size:clamp(3.1rem,5.2vw,4.9rem);line-height:1.03}
