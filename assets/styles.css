@@ -66,3 +66,14 @@
 .hero h1{font-size:clamp(3.1rem,5.2vw,4.9rem);line-height:1.03}
 .service-overview .team-assurance{margin:24px 0 0;padding:19px 24px;border-left:4px solid var(--gold);background:var(--white);color:var(--muted)}
 .service-overview .team-assurance strong{color:var(--teal-dark)}
+
+/* Customer feedback */
+.reviews-section{background:var(--cream)}
+.review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.review-card{display:flex;flex-direction:column;min-width:0;margin:0;padding:32px;border-left:4px solid var(--gold);background:var(--white);box-shadow:0 15px 40px rgba(7,95,90,.08)}
+.review-mark{height:45px;color:var(--gold);font:700 5rem/.85 Georgia,serif}
+.review-card h3{margin:14px 0 18px;color:var(--teal-dark);font:700 1.55rem/1.2 "Playfair Display",serif}
+.review-card blockquote{margin:0 0 24px;color:var(--ink);line-height:1.7}
+.review-card blockquote p{margin:0}
+.review-card figcaption{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+@media (max-width:760px){.review-grid{grid-template-columns:1fr}.review-card{padding:25px}}
