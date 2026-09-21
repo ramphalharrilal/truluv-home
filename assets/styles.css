@@ -64,3 +64,5 @@
 @media (max-width:760px){.path-grid,.payment-grid{grid-template-columns:1fr}.path-card{min-height:260px}.payment-hero{padding:140px 0 65px}.payment-card{min-height:330px}}
 @media (prefers-reduced-motion:reduce){.path-card{transition:none}}
 .hero h1{font-size:clamp(3.1rem,5.2vw,4.9rem);line-height:1.03}
+.service-overview .team-assurance{margin:24px 0 0;padding:19px 24px;border-left:4px solid var(--gold);background:var(--white);color:var(--muted)}
+.service-overview .team-assurance strong{color:var(--teal-dark)}
