@@ -92,14 +92,14 @@ const spanishCopy = {
   'Residential home services': 'Servicios del hogar residencial',
   'The everyday comforts of home.': 'Las comodidades cotidianas del hogar.',
   'Our boarding home is for adults who can live independently and self-evacuate. A welcoming setting and practical daily services make it easier to feel at home.': 'Nuestro hogar residencial es para adultos que pueden vivir de forma independiente y evacuar por sí mismos. Un ambiente acogedor y servicios diarios ayudan a que se sientan como en casa.',
-  'Three nutritious meals daily': 'Tres comidas nutritivas al día',
+  'Nutritional meals daily': 'Comidas nutritivas todos los días',
   'Dependable meals prepared as part of the home’s daily routine.': 'Comidas preparadas como parte de la rutina diaria del hogar.',
   'Furnished rooms': 'Habitaciones amuebladas',
   'Comfortable private or shared room options.': 'Opciones cómodas de habitación privada o compartida.',
   'Utilities and housekeeping': 'Servicios y limpieza del hogar',
   'A cared-for setting without the burden of managing a household alone.': 'Un entorno bien cuidado sin la carga de mantener una casa por su cuenta.',
-  'Laundry service': 'Servicio de lavandería',
-  'Routine laundry support for day-to-day ease.': 'Apoyo habitual con la ropa para facilitar el día a día.',
+  'On-site laundry facilities': 'Instalaciones de lavandería en el hogar',
+  'Residents wash their own clothes using the laundry facilities.': 'Los residentes lavan su propia ropa en las instalaciones de lavandería.',
   'Community and recreation': 'Comunidad y recreación',
   'Friendly shared activities in a safe, home-like environment.': 'Actividades compartidas en un entorno seguro y acogedor.',
   'Internet and cable TV': 'Internet y televisión por cable',
@@ -216,3 +216,4 @@ switchButton.addEventListener('click', () => {
 });
 window.getSiteLanguage = () => siteLanguage;
 applyLanguage();
+
